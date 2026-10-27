@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#009E96">
+  <title>3冊同時に、出ました。｜ごとん文庫</title>
+  <meta name="description" content="元ニトリ28年のごとんが、やらかしだけで書いたKindle本を3冊同時に刊行。仕事の整理、相談、AIの学びをテーマに、自分の仕事で確かめられる問いを届けます。2026年10月28日から5日間、3冊とも0円。">
+  <meta property="og:title" content="3冊同時に、出ました。10月28日から5日間、3冊とも0円。｜ごとん文庫">
+  <meta property="og:description" content="元ニトリ28年のごとんが、やらかしだけで書いたKindle本を3冊同時に刊行。仕事の整理、相談、AIの学びをテーマに、自分の仕事で確かめられる問いを届けます。2026年10月28日から5日間、3冊とも0円。">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ごとん文庫">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:url" content="https://haru1129yuna1004.github.io/gotonbunko-3satsu/">
+  <meta property="og:image" content="https://haru1129yuna1004.github.io/gotonbunko-3satsu/images/ogp.png">
+  <meta property="og:image:alt" content="ごとん文庫の3冊の表紙と「3冊とも0円」">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="900">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="3冊同時に、出ました。｜ごとん文庫">
+  <meta name="twitter:description" content="元ニトリ28年のごとんが、やらかしだけで書いたKindle本を3冊同時に刊行。仕事の整理、相談、AIの学びをテーマに、自分の仕事で確かめられる問いを届けます。2026年10月28日から5日間、3冊とも0円。">
+  <meta name="twitter:image" content="https://haru1129yuna1004.github.io/gotonbunko-3satsu/images/ogp.png">
+  <meta name="twitter:image:alt" content="ごとん文庫の3冊の表紙と「3冊とも0円」">
+  <link rel="canonical" href="https://haru1129yuna1004.github.io/gotonbunko-3satsu/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green: #009e96;
+      --green-dark: #00756e;
+      --green-ink: #006b65;
+      --ink: #1b1b1b;
+      --muted: #5f5f5f;
+      --line: #e3e3e1;
+      --mint: #f5f5f4;
+      --paper: #f5f5f4;
+      --header-height: 82px;
+      --page-width: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-padding-top: calc(var(--header-height) + 20px); }
+    body {
+      margin: 0;
+      padding-top: var(--header-height);
+      color: var(--ink);
+      background: #fff;
+      font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      font-size: 16px;
+      line-height: 1.9;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3, p, figure { margin: 0; }
+    h1, h2, h3 { line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    img { display: block; max-width: 100%; height: auto; }
+    svg { display: block; flex: none; }
+    button, a, summary { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 3px solid var(--green-ink); outline-offset: 6px; }
+    ::selection { color: var(--ink); background: #d9efe9; }
+    .wrap { width: min(var(--page-width), calc(100% - 80px)); margin-inline: auto; }
+    .narrow { width: min(860px, calc(100% - 80px)); margin-inline: auto; }
+    .section { padding-block: 100px; }
+    .unit { display: inline-block; }
+    .eyebrow {
+      display: flex; align-items: center; gap: 10px;
+      color: var(--green-ink); font-size: 13px; font-weight: 600; letter-spacing: .12em;
+    }
+    .eyebrow::before { content: ""; width: 24px; height: 2px; background: var(--green); }
+    .section-title { margin-top: 18px; font-size: clamp(28px, 3vw, 38px); font-weight: 700; letter-spacing: .04em; }
+    .section-intro { margin-top: 16px; color: var(--muted); line-height: 2; }
+    .icon { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .skip-link { position: fixed; z-index: 100; top: 8px; left: 12px; padding: 10px 16px; background: #fff; border: 2px solid var(--green-ink); transform: translateY(-160%); }
+    .skip-link:focus { transform: translateY(0); }
+    .site-header {
+      position: fixed; z-index: 50; inset: 0 0 auto;
+      height: var(--header-height); border-bottom: 1px solid rgba(220,229,225,.85);
+      background: rgba(255,255,255,.94);
+      -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
+    }
+    .header-inner { width: min(1320px, calc(100% - 64px)); height: 100%; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; gap: 26px; }
+    .brand { display: inline-flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .brand-mark { width: 31px; height: 34px; color: var(--green); }
+    .brand-name { font-size: 23px; font-weight: 800; letter-spacing: .08em; line-height: 1.2; }
+    .brand-note { display: block; margin-top: 6px; color: var(--muted); font-size: 10px; font-weight: 500; letter-spacing: .09em; line-height: 1.4; }
+    .site-nav { display: flex; align-items: center; gap: 26px; }
+    .site-nav a { position: relative; display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; font-weight: 500; white-space: nowrap; transition: color .2s ease; }
+    .site-nav a::after { position: absolute; right: 0; bottom: 5px; left: 0; height: 1px; content: ""; background: var(--green); transform: scaleX(0); transform-origin: left; transition: transform .2s ease; }
+    .site-nav a:hover { color: var(--green-ink); }
+    .site-nav a:hover::after { transform: scaleX(1); }
+    .site-nav .nav-line { gap: 7px; color: var(--green-ink); }
+    .menu-toggle { display: none; min-width: 78px; min-height: 44px; padding: 7px 10px; align-items: center; justify-content: center; gap: 9px; border: 1px solid var(--line); border-radius: 6px; background: #fff; cursor: pointer; color: var(--ink); font-size: 13px; }
+    .menu-bars { position: relative; width: 16px; height: 12px; }
+    .menu-bars::before, .menu-bars::after { position: absolute; left: 0; width: 16px; height: 1px; content: ""; background: currentColor; transition: transform .2s ease; }
+    .menu-bars::before { top: 3px; }
+    .menu-bars::after { top: 9px; }
+    .menu-toggle[aria-expanded="true"] .menu-bars::before { transform: translateY(3px) rotate(45deg); }
+    .menu-toggle[aria-expanded="true"] .menu-bars::after { transform: translateY(-3px) rotate(-45deg); }
+    .hero { position: relative; padding-block: 48px 40px; overflow: hidden; text-align: center; background: #fff; }
+    .hero-inner { position: relative; z-index: 1; }
+    .hero-kicker { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 500; letter-spacing: .1em; color: var(--green-ink); }
+    .hero-kicker::before, .hero-kicker::after { content: ""; width: 18px; height: 1px; background: var(--green); }
+    .hero h1 { margin-top: 14px; font-size: clamp(40px, 4.8vw, 64px); font-weight: 800; letter-spacing: .045em; line-height: 1.45; }
+    .hero-offer { display: flex; justify-content: center; align-items: baseline; flex-wrap: wrap; column-gap: .3em; margin-top: 7px; font-size: clamp(19px, 2vw, 26px); font-weight: 500; letter-spacing: .035em; line-height: 1.6; }
+    .hero-offer strong { color: var(--green-ink); font-size: 1.45em; font-weight: 700; }
+    .hero-books { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 38px; width: min(632px, 100%); margin: 30px auto 0; }
+    .hero-books::after { position: absolute; z-index: -1; left: -70px; right: -70px; bottom: 29px; height: 1px; content: ""; background: linear-gradient(90deg, transparent, #e3e3e1 20%, #e3e3e1 80%, transparent); }
+    .hero-book { min-width: 0; }
+    .hero-book a { display: block; }
+    .hero-book img { width: 100%; aspect-ratio: 2 / 3; object-fit: contain; box-shadow: 0 11px 22px -10px rgba(0,0,0,.28), 0 0 0 1px rgba(0,0,0,.04); transition: box-shadow .25s ease; }
+    .hero-book a:hover img { box-shadow: 0 13px 27px -8px rgba(0,0,0,.35), 0 0 0 1px rgba(0,117,110,.25); }
+    .hero-book figcaption { padding-top: 12px; font-size: 12px; font-weight: 500; letter-spacing: .08em; color: var(--muted); }
+    .hero-book figcaption span { margin-right: 7px; color: var(--green-ink); font-size: 11px; }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 28px;
+      min-height: 58px; padding: 14px 27px; border: 1px solid transparent; border-radius: 6px;
+      color: #fff; background: var(--green-dark); font-size: 16px; font-weight: 600; letter-spacing: .055em;
+      transition: background .2s ease, box-shadow .2s ease;
+    }
+    .button:hover { background: #005f59; box-shadow: 0 5px 18px rgba(0,107,101,.14); }
+    .button .arrow-circle { display: grid; place-items: center; width: 28px; height: 28px; border: 1px solid rgba(255,255,255,.45); border-radius: 50%; }
+    .button .arrow-circle .icon { width: 15px; height: 15px; }
+    .hero-cta { margin-top: 27px; min-width: 228px; }
+    .hero-dates { margin: 16px auto 0; max-width: 820px; color: var(--muted); font-size: 12px; line-height: 1.9; text-wrap: pretty; }
+    .hero-dates .note-label { margin-right: 8px; color: var(--green-ink); }
+    .hero-price { margin-top: 2px; color: var(--muted); font-size: 12px; }
+    .hero-bottom { display: flex; justify-content: space-between; align-items: center; margin-top: 29px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; letter-spacing: .08em; }
+    .hero-bottom span:last-child { display: inline-flex; align-items: center; gap: 8px; }
+    .hero-bottom .icon { width: 15px; height: 15px; }
+    .books-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 36px; margin-bottom: 38px; }
+    .books-heading .section-intro { flex: 0 1 360px; padding-bottom: 3px; }
+    .books-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+    .book-card { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; background: #fff; scroll-margin-top: calc(var(--header-height) + 20px); }
+    .book-cover { display: flex; align-items: center; justify-content: center; padding: 30px; background: #f5f5f4; border-bottom: 1px solid var(--line); }
+    .book-card:nth-child(2) .book-cover { background: #f5f5f4; }
+    .book-card:nth-child(3) .book-cover { background: #f5f5f4; }
+    .book-cover img { width: 164px; aspect-ratio: 2 / 3; object-fit: contain; box-shadow: 0 7px 17px -7px rgba(0,0,0,.23); }
+    .book-info { display: flex; flex: 1; flex-direction: column; padding: 26px 25px 25px; }
+    .book-title { min-height: 114px; font-size: 23px; font-weight: 700; line-height: 1.65; letter-spacing: .01em; }
+    .book-subtitle { min-height: 112px; margin-top: 10px; color: var(--muted); font-size: 14px; line-height: 1.9; text-wrap: pretty; }
+    .book-quote { display: flex; align-items: center; min-height: 95px; margin-top: 19px; padding-block: 19px; border-block: 1px solid var(--line); color: var(--green-ink); font-size: 17px; font-weight: 600; line-height: 1.8; text-wrap: pretty; }
+    .book-for { margin-top: 22px; }
+    .book-for dt { margin-bottom: 9px; color: var(--green-ink); font-size: 12px; font-weight: 600; letter-spacing: .06em; }
+    .book-for dd { margin: 0; font-size: 14px; line-height: 2; text-wrap: pretty; }
+    .amazon-button { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 54px; margin-top: auto; padding: 13px 18px; border: 1px solid #e3e3e1; border-radius: 5px; color: var(--green-ink); background: #fff; font-size: 15px; font-weight: 600; transition: border-color .2s ease, background .2s ease; }
+    .amazon-button:hover { border-color: var(--green-dark); background: #f5f5f4; }
+    .book-info .amazon-button { margin-top: auto; }
+    .book-for { margin-bottom: 27px; }
+    .book-note { margin-top: 22px; color: var(--muted); text-align: center; font-size: 13px; }
+    .how-to { background: var(--mint); }
+    .center-heading { text-align: center; }
+    .center-heading .eyebrow { justify-content: center; }
+    .center-heading .eyebrow::after { content: ""; width: 24px; height: 2px; background: var(--green); }
+    .period-panel { margin: 35px auto 0; padding: 32px 36px; border: 1px solid #e3e3e1; border-radius: 8px; background: rgba(255,255,255,.84); text-align: center; }
+    .period-label { color: var(--green-ink); font-size: 13px; font-weight: 600; letter-spacing: .08em; }
+    .date-range { display: flex; align-items: center; justify-content: center; gap: 46px; margin-top: 16px; }
+    .date-block { display: grid; grid-template-columns: auto auto; align-items: baseline; column-gap: 12px; text-align: left; }
+    .date-year { grid-column: 1 / -1; color: var(--muted); font-size: 12px; letter-spacing: .06em; }
+    .date-number { font-size: 45px; font-weight: 500; letter-spacing: .015em; line-height: 1.4; font-variant-numeric: tabular-nums; }
+    .date-weekday { color: var(--muted); font-size: 15px; }
+    .date-time { grid-column: 1 / -1; color: var(--green-ink); font-size: 15px; text-align: center; }
+    .date-connector { width: 64px; height: 1px; background: #e3e3e1; position: relative; }
+    .date-connector::after { position: absolute; top: -3px; right: 0; width: 7px; height: 7px; border-top: 1px solid #e3e3e1; border-right: 1px solid #e3e3e1; content: ""; transform: rotate(45deg); }
+    .exact-period { margin-top: 22px; color: var(--muted); font-size: 13px; line-height: 1.9; text-wrap: pretty; }
+    .period-note { margin-top: 8px; color: var(--muted); font-size: 13px; text-wrap: pretty; }
+    .steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px; padding: 0; margin: 47px 0 0; list-style: none; }
+    .step { position: relative; padding-left: 0; }
+    .step-number { display: flex; align-items: center; gap: 15px; color: var(--green-ink); font-size: 12px; letter-spacing: .04em; }
+    .step-number strong { font-size: 29px; font-weight: 500; line-height: 1; }
+    .step-number::after { content: ""; flex: 1; height: 1px; background: #e3e3e1; }
+    .step h3 { margin-top: 21px; font-size: 19px; font-weight: 600; line-height: 1.8; text-wrap: pretty; }
+    .step p { margin-top: 10px; color: #5f5f5f; font-size: 14px; line-height: 1.9; }
+    .about { padding-block: 108px; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 80px; }
+    .about .section-title { font-size: clamp(27px, 3vw, 36px); line-height: 1.85; }
+    .about-copy { padding-top: 40px; }
+    .about-copy p { font-size: 16px; line-height: 2.15; text-wrap: pretty; }
+    .about-copy p + p { margin-top: 20px; }
+    .series-label { display: block; margin-bottom: 9px; color: var(--muted); font-size: 12px; letter-spacing: .1em; }
+    .series-name { font-weight: 600; }
+    .brand-statement { position: relative; margin-top: 55px; padding: 33px 50px; border-left: 3px solid var(--green); background: linear-gradient(100deg, #f5f5f4, #f5f5f4); }
+    .brand-statement p { font-size: clamp(19px, 2.2vw, 27px); font-weight: 600; letter-spacing: .04em; line-height: 1.9; }
+    .brand-statement small { display: block; margin-top: 10px; color: var(--muted); font-size: 14px; font-weight: 400; }
+    .author { padding-top: 0; }
+    .author-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; align-items: center; padding-top: 70px; border-top: 1px solid var(--line); }
+    .author-card { position: relative; padding: 45px 42px; border: 1px solid var(--line); border-radius: 6px; background: #f5f5f4; }
+    .author-card::after { position: absolute; top: 0; right: 28px; width: 21px; height: 50px; content: ""; background: var(--green); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%); }
+    .author-role { font-size: 14px; color: var(--green-ink); letter-spacing: .1em; }
+    .author-name { margin-top: 9px; font-size: 52px; line-height: 1.4; font-weight: 700; letter-spacing: .13em; }
+    .author-card-line { width: 36px; height: 1px; margin-block: 24px 18px; background: var(--green); }
+    .author-card-note { font-size: 14px; color: var(--muted); line-height: 1.9; }
+    .author-copy .section-title { font-size: 28px; }
+    .author-copy > p { margin-top: 22px; font-size: 16px; line-height: 2.15; text-wrap: pretty; }
+    .author-copy .author-ending { color: var(--green-ink); font-weight: 500; }
+    .faq { background: var(--paper); }
+    .faq-list { margin-top: 35px; border-top: 1px solid #e3e3e1; }
+    .faq-item { border-bottom: 1px solid #e3e3e1; }
+    .faq-item summary { display: grid; grid-template-columns: 30px 1fr 20px; gap: 18px; align-items: center; padding: 25px 6px; cursor: pointer; font-size: 17px; font-weight: 500; list-style: none; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::marker { content: ""; }
+    .faq-q { color: var(--green-ink); font-size: 20px; font-weight: 500; }
+    .faq-plus { position: relative; display: block; width: 18px; height: 18px; color: var(--green-ink); }
+    .faq-plus::before, .faq-plus::after { position: absolute; top: 8px; left: 2px; width: 14px; height: 1px; content: ""; background: currentColor; }
+    .faq-plus::after { transform: rotate(90deg); transition: transform .2s ease; }
+    .faq-item[open] .faq-plus::after { transform: rotate(0); }
+    .faq-item[open] summary { color: var(--green-ink); }
+    .faq-item .answer { padding: 0 44px 27px 54px; color: var(--muted); font-size: 15px; line-height: 2; text-wrap: pretty; }
+    .line-section { padding-block: 95px 70px; }
+    .line-layout { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 60px; }
+    .line-copy .section-title { font-size: 32px; line-height: 1.8; }
+    .line-action { padding: 31px; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(120deg, #f5f5f4, #f5f5f4); }
+    .line-action p { color: var(--muted); font-size: 14px; line-height: 2; }
+    .line-link { display: flex; align-items: center; justify-content: space-between; gap: 13px; margin-top: 21px; padding-block: 16px 5px; border-top: 1px solid #e3e3e1; color: var(--green-ink); font-size: 16px; font-weight: 600; line-height: 1.8; transition: color .2s ease; }
+    .line-link:hover { color: #003e3a; }
+    .line-link .icon { width: 18px; height: 18px; }
+    .closing { padding-top: 68px; padding-bottom: 70px; border-top: 1px solid var(--line); text-align: center; }
+    .closing p { font-size: 24px; font-weight: 600; line-height: 1.8; letter-spacing: .04em; }
+    .closing .button { margin-top: 25px; min-width: 228px; }
+    .site-footer { padding: 24px; border-top: 1px solid var(--line); color: var(--muted); text-align: center; }
+    .site-footer small { font-size: 12px; letter-spacing: .08em; }
+    .reveal.ready { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.ready.visible { opacity: 1; transform: none; }
+    @media (min-width: 1001px) and (max-width: 1180px) {
+      .site-nav { gap: 16px; }
+      .site-nav a { font-size: 12px; }
+      .brand-name { font-size: 21px; }
+      .book-info { padding-inline: 20px; }
+      .book-title { font-size: 21px; }
+    }
+    @media (max-width: 1000px) {
+      :root { --header-height: 74px; }
+      .header-inner { width: calc(100% - 48px); }
+      .js .menu-toggle { display: inline-flex; }
+      .site-nav { position: absolute; top: var(--header-height); left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; padding: 12px 24px 20px; border-bottom: 1px solid var(--line); background: #fff; box-shadow: 0 10px 15px rgba(0,0,0,.04); }
+      .site-nav a { min-height: 48px; font-size: 14px; }
+      .js .site-nav { display: none; }
+      .js .site-nav.is-open { display: grid; }
+      html:not(.js) body { padding-top: calc(var(--header-height) + 180px); }
+      html:not(.js) { scroll-padding-top: calc(var(--header-height) + 200px); }
+      .wrap, .narrow { width: calc(100% - 48px); }
+      .section { padding-block: 78px; }
+      .books-heading { display: block; }
+      .books-heading .section-intro { margin-top: 17px; }
+      .books-grid { gap: 15px; }
+      .book-info { padding: 23px 18px 18px; }
+      .book-title { min-height: 108px; font-size: 20px; }
+      .book-subtitle { min-height: 135px; font-size: 13px; }
+      .book-quote { min-height: 126px; font-size: 16px; }
+      .book-for dd { font-size: 13px; }
+      .book-cover { padding: 25px; }
+      .book-cover img { width: 140px; }
+      .amazon-button { padding-inline: 11px; font-size: 13px; }
+      .about-grid { gap: 38px; }
+      .about-copy { padding-top: 40px; }
+      .author { padding-top: 0; }
+      .author-layout { gap: 35px; padding-top: 55px; }
+      .author-card { padding-inline: 29px; }
+      .author-copy .section-title { font-size: 24px; }
+      .line-layout { gap: 35px; }
+      .line-copy .section-title { font-size: 26px; }
+      .line-action { padding: 24px; }
+    }
+    @media (max-width: 700px) {
+      :root { --header-height: 70px; }
+      body { font-size: 16px; }
+      .header-inner { width: calc(100% - 36px); }
+      .brand { gap: 9px; }
+      .brand-name { font-size: 20px; }
+      .brand-note { font-size: 9px; margin-top: 5px; }
+      .brand-mark { width: 25px; height: 30px; }
+      .wrap, .narrow { width: calc(100% - 40px); }
+      .section { padding-block: 65px; }
+      .section-title { font-size: 27px; line-height: 1.7; }
+      .section-intro { font-size: 15px; }
+      .eyebrow { font-size: 12px; letter-spacing: .07em; }
+      .hero { padding-block: 34px 26px; }
+      .hero-kicker { font-size: 11px; gap: 8px; letter-spacing: .02em; }
+      .hero-kicker::before, .hero-kicker::after { width: 13px; }
+      .hero h1 { margin-top: 18px; font-size: clamp(35px, 8.8vw, 51px); line-height: 1.5; letter-spacing: .025em; }
+      .hero h1 .unit { display: block; }
+      .hero-offer { flex-direction: column; align-items: center; gap: 0; margin-top: 14px; font-size: 18px; line-height: 1.7; }
+      .hero-offer strong { font-size: 1.65em; }
+      .hero-books { max-width: 440px; gap: 13px; margin-top: 26px; }
+      .hero-book figcaption { padding-top: 10px; font-size: 10px; letter-spacing: 0; }
+      .hero-book figcaption span { display: none; }
+      .hero-books::after { bottom: 24px; left: -15px; right: -15px; }
+      .hero-cta { margin-top: 26px; }
+      .hero-dates { max-width: 380px; margin-top: 19px; font-size: 11px; text-align: left; line-height: 1.9; }
+      .hero-price { margin-top: 7px; font-size: 11px; text-align: left; }
+      .hero-bottom { justify-content: center; margin-top: 23px; padding-top: 15px; font-size: 10px; letter-spacing: .02em; }
+      .hero-bottom span:last-child { display: none; }
+      .books-heading { margin-bottom: 28px; }
+      .books-grid { grid-template-columns: 1fr; gap: 30px; }
+      .book-card { border-radius: 7px; }
+      .book-cover { padding: 30px; }
+      .book-cover img { width: 180px; }
+      .book-info { padding: 26px 24px 24px; }
+      .book-title { min-height: 0; font-size: 24px; line-height: 1.65; }
+      .book-subtitle { min-height: 0; margin-top: 12px; font-size: 15px; line-height: 1.9; }
+      .book-quote { min-height: 0; margin-top: 23px; padding-block: 18px; font-size: 17px; }
+      .book-for { margin-top: 23px; margin-bottom: 25px; }
+      .book-for dt { font-size: 13px; }
+      .book-for dd { font-size: 15px; }
+      .amazon-button { min-height: 56px; padding-inline: 20px; font-size: 16px; }
+      .book-note { font-size: 12px; text-align: left; line-height: 1.9; }
+      .period-panel { margin-top: 28px; padding: 26px 18px; }
+      .date-range { gap: 17px; margin-top: 17px; }
+      .date-block { column-gap: 4px; }
+      .date-number { font-size: 30px; }
+      .date-weekday { font-size: 12px; }
+      .date-year { font-size: 10px; }
+      .date-time { font-size: 12px; margin-top: 3px; }
+      .date-connector { width: 23px; flex-shrink: 0; }
+      .exact-period, .period-note { font-size: 12px; text-align: left; line-height: 1.9; }
+      .steps { grid-template-columns: 1fr; gap: 30px; margin-top: 35px; }
+      .step h3 { margin-top: 14px; font-size: 19px; }
+      .step p { margin-top: 8px; font-size: 15px; }
+      .step-number { gap: 12px; }
+      .step-number strong { font-size: 25px; }
+      .about-grid { grid-template-columns: 1fr; gap: 25px; }
+      .about .section-title { font-size: 25px; }
+      .about-copy { padding-top: 0; }
+      .about-copy p { font-size: 15px; line-height: 2.15; }
+      .brand-statement { margin-top: 31px; padding: 25px 22px; }
+      .brand-statement p { font-size: 20px; letter-spacing: 0; }
+      .brand-statement small { margin-top: 13px; font-size: 13px; line-height: 1.9; }
+      .author { padding-top: 0; }
+      .author-layout { grid-template-columns: 1fr; gap: 32px; padding-top: 0; border-top: 0; }
+      .author-card { padding: 31px; }
+      .author-name { font-size: 43px; }
+      .author-card-line { margin-block: 17px 13px; }
+      .author-copy .section-title { font-size: 25px; }
+      .author-copy > p { margin-top: 17px; font-size: 15px; }
+      .faq-list { margin-top: 28px; }
+      .faq-item summary { padding: 21px 0; grid-template-columns: 23px 1fr 18px; gap: 10px; font-size: 16px; line-height: 1.9; }
+      .faq-item .answer { padding: 0 0 23px 33px; font-size: 15px; }
+      .line-section { padding-block: 65px 55px; }
+      .line-layout { grid-template-columns: 1fr; gap: 28px; }
+      .line-copy .section-title { font-size: 25px; }
+      .line-action { padding: 24px 22px; }
+      .line-link { font-size: 16px; text-wrap: balance; }
+      .closing { padding-block: 44px 52px; }
+      .closing p { font-size: 22px; letter-spacing: .02em; }
+      .site-footer { padding: 22px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+      .reveal.ready { opacity: 1; transform: none; }
+    }
+  
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">本文へ移動</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#hero" aria-label="ごとん文庫 ページの先頭へ">
+        <svg class="brand-mark" viewBox="0 0 32 36" fill="none" aria-hidden="true"><rect x="1" y="6" width="7" height="27" rx="1.5" fill="currentColor"/><rect x="11" y="2" width="7" height="31" rx="1.5" fill="currentColor"/><path d="m21 8 6-1.2 5 25-6 1.2z" fill="currentColor"/><path d="M3 11h3M13 7h3" stroke="white" stroke-width="1.2"/></svg>
+        <span class="brand-name">ごとん文庫<span class="brand-note">元ニトリ28年 ごとん</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="メニューを開く"><span class="menu-label">目次</span><span class="menu-bars" aria-hidden="true"></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="ページ内の目次">
+        <a href="#books">3冊の紹介</a>
+        <a href="#how-to">無料の期間と受け取り方</a>
+        <a href="#about">ごとん文庫とは</a>
+        <a href="#author">著者について</a>
+        <a href="#faq">よくある質問</a>
+        <a href="#line" class="nav-line">LINEで話す<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <p class="hero-kicker">ひとりで仕事をしている、あなたへ。</p>
+        <h1 id="hero-title"><span class="unit">3冊同時に、</span><span class="unit">出ました。</span></h1>
+        <p class="hero-offer"><span>10月28日から5日間、</span><span>3冊とも<strong>0円。</strong></span></p>
+        <div class="hero-books" aria-label="ごとん文庫の3冊">
+          <figure class="hero-book">
+            <a href="#book-1" aria-label="『その仕事、やめても回ります。』の紹介へ"><img src="images/cover-1.jpg" width="1600" height="2400" fetchpriority="high" decoding="async" alt="『その仕事、やめても回ります。』元ニトリ28年 ごとん 著の表紙"></a>
+            <figcaption><span>01</span>仕事を整理する</figcaption>
+          </figure>
+          <figure class="hero-book">
+            <a href="#book-2" aria-label="『ひとりで抱えない相談術』の紹介へ"><img src="images/cover-2.jpg" width="1600" height="2400" decoding="async" alt="『ひとりで抱えない相談術』元ニトリ28年 ごとん 著の表紙"></a>
+            <figcaption><span>02</span>困りごとを話す</figcaption>
+          </figure>
+          <figure class="hero-book">
+            <a href="#book-3" aria-label="『途中で止まらないAI講座の選び方』の紹介へ"><img src="images/cover-3.jpg" width="1600" height="2400" decoding="async" alt="『途中で止まらないAI講座の選び方』元ニトリ28年 ごとん 著の表紙"></a>
+            <figcaption><span>03</span>学びを続ける</figcaption>
+          </figure>
+        </div>
+        <a class="button hero-cta" href="#books">3冊を見る<span class="arrow-circle" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M12 5v14m-5-5 5 5 5-5"/></svg></span></a>
+        <p class="hero-dates"><span class="note-label">無料の期間（目安）</span>2026年10月28日（水）午後4時から、11月2日（月）午後5時前まで（日本時間・5日間）。</p>
+        <p class="hero-price">期間が終わると通常価格の各500円。受け取る前に、AmazonでKindle版の価格が0円か確認してください。</p>
+        <div class="hero-bottom"><span>成功談は書いていません。やらかしだけで書きました。</span><span>自分の困りごとに近い1冊から<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14m-5-5 5 5 5-5"/></svg></span></div>
+      </div>
+    </section>
+
+    <section id="books" class="section" aria-labelledby="books-title">
+      <div class="wrap">
+        <div class="books-heading reveal">
+          <div><p class="eyebrow">3冊の紹介</p><h2 class="section-title" id="books-title"><span class="unit">いまの困りごとに、</span><br><span class="unit">近い本はありますか。</span></h2></div>
+          <p class="section-intro">仕事を減らす。誰かに話す。学びを続ける。<br>入口は、それぞれ。<br>気になる表紙から、どうぞ。</p>
+        </div>
+        <div class="books-grid">
+          <article id="book-1" class="book-card reveal" aria-labelledby="book-title-1">
+            <div class="book-cover"><img src="images/cover-1.jpg" alt="『その仕事、やめても回ります。』の表紙" width="1600" height="2400" loading="lazy" decoding="async"></div>
+            <div class="book-info">
+              <h3 id="book-title-1" class="book-title"><span class="unit">その仕事、</span><span class="unit">やめても回ります。</span></h3>
+              <p class="book-subtitle">個人事業主のための「やめる・減らす・まとめる」仕事整理術</p>
+              <p class="book-quote">1週間で、1つやめてみる。</p>
+              <dl class="book-for"><dt>こんな人に</dt><dd>問い合わせ、発信、請求、事務作業に追われて、やりたい仕事が後回しになっている人。「自分が全部やらなきゃ」と抱え込んでいる人。</dd></dl>
+              <a class="amazon-button" href="https://www.amazon.co.jp/dp/B0HPCJ36V7" target="_blank" rel="noopener noreferrer" aria-label="『その仕事、やめても回ります。』をAmazonで見る（新しいタブ）">Amazonで見る<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            </div>
+          </article>
+          <article id="book-2" class="book-card reveal" aria-labelledby="book-title-2">
+            <div class="book-cover"><img src="images/cover-2.jpg" alt="『ひとりで抱えない相談術』の表紙" width="1600" height="2400" loading="lazy" decoding="async"></div>
+            <div class="book-info">
+              <h3 id="book-title-2" class="book-title"><span class="unit">ひとりで抱えない</span><span class="unit">相談術</span></h3>
+              <p class="book-subtitle">まとまっていなくても大丈夫。困りごとを言葉にする6つの練習</p>
+              <p class="book-quote">10分だけ、聞いてもらえますか。</p>
+              <dl class="book-for"><dt>こんな人に</dt><dd>何に困っているか自分でもうまく説明できない人。相手の時間を奪いそうで声をかけられない人。</dd></dl>
+              <a class="amazon-button" href="https://www.amazon.co.jp/dp/B0HPCRYJZB" target="_blank" rel="noopener noreferrer" aria-label="『ひとりで抱えない相談術』をAmazonで見る（新しいタブ）">Amazonで見る<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            </div>
+          </article>
+          <article id="book-3" class="book-card reveal" aria-labelledby="book-title-3">
+            <div class="book-cover"><img src="images/cover-3.jpg" alt="『途中で止まらないAI講座の選び方』の表紙" width="1600" height="2400" loading="lazy" decoding="async"></div>
+            <div class="book-info">
+              <h3 id="book-title-3" class="book-title"><span class="unit">途中で止まらない</span><span class="unit">AI講座の選び方</span></h3>
+              <p class="book-subtitle">買う前に確かめる3つのこと。最初の一つを完成させる学び方</p>
+              <p class="book-quote">見る時間と、作る時間をセットに。</p>
+              <dl class="book-for"><dt>こんな人に</dt><dd>AIを使いたいけれど、保存した動画を見ない、講座を買っても途中で止まる初心者。</dd></dl>
+              <a class="amazon-button" href="https://www.amazon.co.jp/dp/B0HPBJGNSH" target="_blank" rel="noopener noreferrer" aria-label="『途中で止まらないAI講座の選び方』をAmazonで見る（新しいタブ）">Amazonで見る<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            </div>
+          </article>
+        </div>
+        <p class="book-note">3冊ともKindle版です。無料の期間中も、受け取る前にAmazonの表示価格を確認してください。</p>
+      </div>
+    </section>
+
+    <section id="how-to" class="section how-to" aria-labelledby="how-to-title">
+      <div class="wrap">
+        <div class="center-heading reveal"><p class="eyebrow">無料の期間と受け取り方</p><h2 class="section-title" id="how-to-title"><span class="unit">スマホに、</span><span class="unit">本のある時間を。</span></h2></div>
+        <div class="period-panel reveal">
+          <p class="period-label">3冊とも0円で受け取れる期間</p>
+          <div class="date-range" aria-hidden="true">
+            <div class="date-block"><span class="date-year">2026年</span><span class="date-number">10.28</span><span class="date-weekday">水</span><span class="date-time">午後4時から</span></div>
+            <span class="date-connector"></span>
+            <div class="date-block"><span class="date-year">2026年</span><span class="date-number">11.02</span><span class="date-weekday">月</span><span class="date-time">午後5時前まで</span></div>
+          </div>
+          <p class="exact-period">2026年10月28日（水）午後4時から、11月2日（月）午後5時前まで（日本時間・5日間）。</p>
+          <p class="period-note">時刻は目安です。期間が終わると通常価格の各500円。AmazonでKindle版の価格が0円になっているのを確認してください。</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><div class="step-number" aria-hidden="true"><strong>01</strong>本のページへ</div><h3>期間中にAmazonの<br>本のページを開く</h3><p>気になる本の「Amazonで見る」から、<br>それぞれの本のページへ進めます。</p></li>
+          <li class="step reveal"><div class="step-number" aria-hidden="true"><strong>02</strong>価格を確認</div><h3>Kindle版の価格が<br>0円になっているのを見る</h3><p>0円の表示を確認してから、受け取ってください。表示されている価格が目印です。</p></li>
+          <li class="step reveal"><div class="step-number" aria-hidden="true"><strong>03</strong>いつもの画面で</div><h3>スマホやタブレットの<br>無料のKindleアプリで読める</h3><p>Kindle端末がなくても大丈夫。<br>手元のスマホやタブレットで読めます。</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="about-grid reveal">
+          <div><p class="eyebrow">ごとん文庫とは</p><h2 class="section-title" id="about-title"><span class="unit">うまくいかなかった話を、</span><br><span class="unit">仕事に使える問いに。</span></h2></div>
+          <div class="about-copy"><p><span class="series-label">シリーズ名</span><span class="series-name">人生で大切なことは、全部ニトリで味わった</span></p><p>元ニトリ28年の僕が、やらかしをもとに書いたKindle本のシリーズです。</p><p>読んで終わりにせず、自分の仕事で確かめられる問いにしました。ひとりで仕事をしている人の、手元に置いてもらえたら。</p></div>
+        </div>
+        <div class="brand-statement reveal"><p>成功談は書いていません。<br>やらかしだけで書きました。</p><small>やらかしが、3冊ぶん。<br>自慢には、なりませんが。</small></div>
+      </div>
+    </section>
+
+    <section id="author" class="section author" aria-labelledby="author-title">
+      <div class="wrap author-layout">
+        <div class="author-card reveal"><p class="author-role">元ニトリ28年</p><p class="author-name">ごとん</p><div class="author-card-line" aria-hidden="true"></div><p class="author-card-note">ごとん文庫 著者<br>いまは、ひとりで仕事をしています。</p></div>
+        <div class="author-copy reveal"><p class="eyebrow">著者について</p><h2 id="author-title" class="section-title"><span class="unit">僕も、ひとりで</span><span class="unit">仕事をしています。</span></h2><p>ニトリでは、商品部のバイヤーや業務システム室を経験しました。独立後は、ひとりで仕事をしています。</p><p>仕事を抱えること。誰かに相談すること。新しいことを学ぶこと。そんな日々の困りごとを、3冊の本にしました。</p><p class="author-ending">僕のやらかしが、<br>あなたの仕事を考えるきっかけになれば。</p></div>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq" aria-labelledby="faq-title">
+      <div class="narrow">
+        <div class="center-heading reveal"><p class="eyebrow">よくある質問</p><h2 class="section-title" id="faq-title">読む前の、ちょっと気になること。</h2></div>
+        <div class="faq-list reveal">
+          <details class="faq-item"><summary><span class="faq-q" aria-hidden="true">Q</span><span>本当に0円で読めますか？</span><span class="faq-plus" aria-hidden="true"></span></summary><p class="answer">はい。ご案内の無料の期間は、3冊ともKindle版が0円になります。開始と終了の時刻は目安です。受け取る前に、Amazonの本のページでKindle版の価格が0円になっているのを確認してください。</p></details>
+          <details class="faq-item"><summary><span class="faq-q" aria-hidden="true">Q</span><span>期間が終わったら、どうなりますか？</span><span class="faq-plus" aria-hidden="true"></span></summary><p class="answer">期間が終わると通常価格の各500円になります。Amazonに表示されている価格を確認してください。</p></details>
+          <details class="faq-item"><summary><span class="faq-q" aria-hidden="true">Q</span><span>Kindle端末がなくても読めますか？</span><span class="faq-plus" aria-hidden="true"></span></summary><p class="answer">はい。スマホやタブレットの無料のKindleアプリで読めます。Kindle端末はなくても大丈夫です。</p></details>
+          <details class="faq-item"><summary><span class="faq-q" aria-hidden="true">Q</span><span>どの本から読めばいいですか？</span><span class="faq-plus" aria-hidden="true"></span></summary><p class="answer">自分の困りごとに近い表紙から、どうぞ。仕事を整理したいとき。誰かに相談したいとき。AIの学びを続けたいとき。いま気になる1冊から読んでもらえたら。</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="line" class="line-section" aria-labelledby="line-title">
+      <div class="wrap line-layout">
+        <div class="line-copy reveal"><p class="eyebrow">LINEで話す</p><h2 id="line-title" class="section-title"><span class="unit">まとまっていなくても、</span><br><span class="unit">話してみてください。</span></h2></div>
+        <div class="line-action reveal"><p>本を読んで、困ったところを話したくなったら。<br>うまく言葉になっていなくても大丈夫です。</p><a class="line-link" href="https://goton.info/line" target="_blank" rel="noopener noreferrer" aria-label="困ったところを話したい人はこちら（新しいタブ）"><span>困ったところを話したい人はこちら</span><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+      </div>
+    </section>
+    <div class="closing wrap"><p><span class="unit">いまの困りごとに近い、</span><span class="unit">1冊から。</span></p><a class="button" href="#books">3冊を見る<span class="arrow-circle" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M12 19V5m-5 5 5-5 5 5"/></svg></span></a></div>
+  </main>
+
+  <footer class="site-footer"><small>© ごとん文庫</small></footer>
+  <script>
+    (() => {
+      'use strict';
+      const root = document.documentElement;
+      const menu = document.querySelector('.site-nav');
+      const menuButton = document.querySelector('.menu-toggle');
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const mobileMenu = window.matchMedia('(max-width: 1000px)');
+
+      const setMenu = (open) => {
+        menu.classList.toggle('is-open', open);
+        menuButton.setAttribute('aria-expanded', String(open));
+        menuButton.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+      };
+      menuButton.addEventListener('click', () => setMenu(menuButton.getAttribute('aria-expanded') !== 'true'));
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && menu.classList.contains('is-open')) {
+          setMenu(false);
+          menuButton.focus();
+        }
+      });
+      document.addEventListener('click', (event) => {
+        if (!event.target.closest('.site-header') && menu.classList.contains('is-open')) setMenu(false);
+      });
+      mobileMenu.addEventListener('change', () => setMenu(false));
+      root.classList.add('js');
+
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener('click', (event) => {
+          if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+          const hash = link.getAttribute('href');
+          const target = document.getElementById(hash.slice(1));
+          if (!target) return;
+          event.preventDefault();
+          setMenu(false);
+          if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+          target.focus({ preventScroll: true });
+          target.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
+          try { window.history.pushState(null, '', hash); } catch (_) { /* Local file previews may restrict History API. */ }
+        });
+      });
+
+      if ('IntersectionObserver' in window && !reducedMotion.matches) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.06, rootMargin: '0px 0px 30px 0px' });
+        document.querySelectorAll('.reveal').forEach((element) => {
+          if (element.getBoundingClientRect().top >= window.innerHeight) {
+            element.classList.add('ready');
+            observer.observe(element);
+          }
+        });
+        reducedMotion.addEventListener('change', (event) => {
+          if (event.matches) {
+            document.querySelectorAll('.reveal.ready').forEach((element) => element.classList.add('visible'));
+            observer.disconnect();
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
