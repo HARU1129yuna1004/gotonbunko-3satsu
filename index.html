@@ -191,6 +191,7 @@
     .author-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; align-items: center; padding-top: 70px; border-top: 1px solid var(--line); }
     .author-card { position: relative; padding: 45px 42px; border: 1px solid var(--line); border-radius: 6px; background: #f5f5f4; }
     .author-card::after { position: absolute; top: 0; right: 28px; width: 21px; height: 50px; content: ""; background: var(--green); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%); }
+    .author-photo { display: block; width: 176px; height: 176px; margin-bottom: 26px; border-radius: 50%; object-fit: cover; object-position: 50% 32%; background: #e9e9e7; box-shadow: 0 0 0 5px #fff, 0 0 0 6px var(--line); }
     .author-role { font-size: 14px; color: var(--green-ink); letter-spacing: .1em; }
     .author-name { margin-top: 9px; font-size: 52px; line-height: 1.4; font-weight: 700; letter-spacing: .13em; }
     .author-card-line { width: 36px; height: 1px; margin-block: 24px 18px; background: var(--green); }
@@ -333,6 +334,7 @@
       .author { padding-top: 0; }
       .author-layout { grid-template-columns: 1fr; gap: 32px; padding-top: 0; border-top: 0; }
       .author-card { padding: 31px; }
+      .author-photo { width: 144px; height: 144px; margin-bottom: 22px; }
       .author-name { font-size: 43px; }
       .author-card-line { margin-block: 17px 13px; }
       .author-copy .section-title { font-size: 25px; }
@@ -494,7 +496,7 @@
 
     <section id="author" class="section author" aria-labelledby="author-title">
       <div class="wrap author-layout">
-        <div class="author-card reveal"><p class="author-role">元ニトリ28年</p><p class="author-name">ごとん</p><div class="author-card-line" aria-hidden="true"></div><p class="author-card-note">ごとん文庫 著者<br>いまは、ひとりで仕事をしています。</p></div>
+        <div class="author-card reveal"><img class="author-photo" src="images/author-goton.jpg" width="640" height="640" alt="著者 ごとんの写真" loading="lazy" decoding="async"><p class="author-role">元ニトリ28年</p><p class="author-name">ごとん</p><div class="author-card-line" aria-hidden="true"></div><p class="author-card-note">ごとん文庫 著者<br>いまは、ひとりで仕事をしています。</p></div>
         <div class="author-copy reveal"><p class="eyebrow">著者について</p><h2 id="author-title" class="section-title"><span class="unit">僕も、ひとりで</span><span class="unit">仕事をしています。</span></h2><p>ニトリでは、商品部のバイヤーや業務システム室を経験しました。独立後は、ひとりで仕事をしています。</p><p>仕事を抱えること。誰かに相談すること。新しいことを学ぶこと。そんな日々の困りごとを、3冊の本にしました。</p><p class="author-ending">僕のやらかしが、<br>あなたの仕事を考えるきっかけになれば。</p></div>
       </div>
     </section>
